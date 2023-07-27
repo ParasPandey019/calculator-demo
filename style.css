@@ -24,6 +24,8 @@
     display: flex;
 }
 
+
+
 .row>p{
     height: 100px;
     width: 25%;
@@ -36,6 +38,7 @@
     cursor: pointer;
 }
 
+
 #zero{
     width: 50%;
     border: 0.75px solid black;
@@ -45,4 +48,13 @@
 .row-last{
     background-color: rgb(149, 6, 6);
     color: white;
+    cursor: pointer;
+}
+
+.row-last:hover{
+    background-color: black;
+}
+
+.row-lefts:hover{
+    background-color: yellow;
 }
