@@ -1,0 +1,47 @@
+.calculator{
+    width: 30%;
+    margin: auto;
+    border: 1.5px solid black;
+    margin-top: 50px;
+}
+
+#display{
+    height: 110px;
+    width: 100%;
+    border: 0.5px solid black;
+    box-sizing: border-box;
+    font-size: 3rem;
+    text-align: right;
+    line-height: 110px;
+}
+
+
+.row{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(248, 255, 194);
+    display: flex;
+}
+
+.row>p{
+    height: 100px;
+    width: 25%;
+    border: 0.5px solid black;
+    margin: 0;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#zero{
+    width: 50%;
+    border: 0.75px solid black;
+    box-sizing: border-box;
+}
+
+.row-last{
+    background-color: rgb(149, 6, 6);
+    color: white;
+}

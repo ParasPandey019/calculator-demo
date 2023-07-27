@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div id="display">
+        </div>
+        <div class="rows">
+            <div id="row1" class="row">
+                <p onclick="clearButton()" id="AC">AC</p>
+                <p onclick="chooseSign()" id="sign-button">+/-</p>
+                <p onclick="buttonClick(this.id);" id="modulo">%</p>
+                <p onclick="buttonClick(this.id);" id="divide" class="row-last">/</p>
+            </div>
+            <div id="row2" class="row">
+                <p onclick="buttonClick(this.id);" id="button-7">7</p>
+                <p onclick="buttonClick(this.id);" id="button-8">8</p>
+                <p onclick="buttonClick(this.id);" id="button-9">9</p>
+                <p onclick="buttonClick(this.id);" id="multiply" class="row-last">*</p>
+            </div>
+            <div id="row3" class="row">
+                <p onclick="buttonClick(this.id);" id="button-4">4</p>
+                <p onclick="buttonClick(this.id);" id="button-5">5</p>
+                <p onclick="buttonClick(this.id);" id="button-6">6</p>
+                <p onclick="buttonClick(this.id);" id="minus" class="row-last">-</p>
+            </div>
+            <div id="row4" class="row">
+                <p onclick="buttonClick(this.id);" id="button-1">1</p>
+                <p onclick="buttonClick(this.id);" id="button-2">2</p>
+                <p onclick="buttonClick(this.id);" id="button-3">3</p>
+                <p onclick="buttonClick(this.id);" id="plus" class="row-last">+</p>
+            </div>
+            <div id="row5" class="row">
+                <p onclick="buttonClick(this.id);" id="zero">0</p>
+                <p onclick="buttonClick(this.id);" id="decimal">.</p>
+                <p onclick="evaluate();" id="equals" class="row-last">=</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
